@@ -1,0 +1,313 @@
+%-------------------------
+% Resume in Latex
+% Author : Abey George
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+      
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    {\Huge \scshape Amlan Pati} \\ \vspace{1pt}
+     \\ \vspace{1pt}
+    \small \href{tel:#}{ \raisebox{-0.1\height}\faPhone\ \underline{+91-6372709632} ~} \href{mailto:yourname@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{21052671@kiit.ac.in}} ~ 
+    \href{https://www.linkedin.com/in/amlan-pati-63729a25b/}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{Linkedin}}  ~
+    \href{https://github.com/Amlan4}{\raisebox{-0.2\height}\faGithub\ \underline{Github}} ~
+    \href{https://codeforces.com/profile/abthecoder23}
+
+%-----------ABOUT ME-----------
+\section{SUMMARY}
+
+    \resumeSubHeadingListStart
+ 
+      {I am a dedicated and enthusiastic B.Tech final year student specializing in Computer Science and Engineering at Kalinga Institute of Industrial Technology. With a strong foundation in various programming languages and technologies, I have gained practical experience through internships and projects. My passion for technology drives me to continuously learn  and leverage technical expertise in web development, generative ai, and machine learning and problem-solving skills in a challenging and dynamic environment. }
+  \resumeSubHeadingListEnd
+
+
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Kalinga Institute of Industrial Technology}{2021 – Present}
+      {B.Tech - Computer Science and Engineering }{Bhubaneswar, Odisha}
+      \vspace*{0.1cm}
+    \resumeSubheading
+      {Young Phoenix Public School}{2021}
+      {XII (CBSE) - \textbf{79.4\%}}{Bhubaneswar, Odisha}
+      \vspace*{0.1cm}
+    \resumeSubheading
+      {D.A.V. Public School}{2019}
+      {X (CBSE) - \textbf{86\%}}{Paradeep, Odisha}
+  \resumeSubHeadingListEnd
+
+  
+
+    %-----work experience---%
+    % Adjust the space as needed
+    \section{WORK EXPERIENCE}
+
+\begin{flushleft}
+\textbf{Student Intern} \\
+Indian Farmers Fertiliser Coop Ltd \\
+Paradeep, Odisha· On-site \\
+May 2023 - Jun 2023 ·  \\
+Developed an advanced E-Library Management System to streamline the administration of book inventories, user registrations, and lending/return workflows for a newly established in-office library, leveraging cutting-edge technologies to enhance operational efficiency and data accuracy.\\
+\href{https://www.linkedin.com/in/amlan-pati-63729a25b/overlay/1635536394772/single-media-viewer/?profileId=ACoAAD_vqAsBW1swL3D9-OmnUZ5TQb48RXd5MaY}{Certificate Link}
+
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    
+    \resumeSubHeadingListStart
+
+          \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+      
+              \resumeProjectHeading
+      
+          {\href{https://replit.com/@amlanpati6/externalordChatgpt#main.py}{\textbf{\large{\underline{Discord Bot }}} \href{Project Link}{\raisebox{-0.1\height}\f \vspace*{0.1cm}}} $|$ \large{\underline{Python,Replit}}}\\
+          \resumeItemListStart
+            % \resumeItem{\normalsize{Developed a externalord bot that interacts with users, responds to mentions, and generates AI-based content using Google’s Generative AI (Gemini) APIWe fetch(relevant) data from GitHub for that we required GitHub API and performing various operation on it.}}
+             \resumeItem{\normalsize{Developed a externalord bot by integrating it with Google Generative AI (Gemini) to generate real-time responses and images based on user prompts.}}
+             \resumeItem{\normalsize{Integrated image generation functionality, enabling users to generate images through the bot by interacting with an external service.}}
+             \resumeItem {\normalsize{Configured secure access to APIs using environment variables for sensitive data like API keys and tokens.}}
+      \resumeItemListEnd 
+
+\resumeSubHeadingListEnd}}
+          \resumeItemListEnd 
+          
+
+          \resumeProjectHeading
+          {\href{https://github.com/Amlan4/movie-recommendation-system}{\textbf{\large{\underline{Movie Insight Engine}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Python, IDE-jupyter notebook}}}\\
+          \resumeItemListStart
+            % \resumeItem{\normalsize{We fetch(relevant) data from GitHub for that we required GitHub API and performing various operation on it.}}
+            \resumeItem {\normalsize{From a dataset of 5000 movies, it recommends 5 most similar movies for any entered movie name. }}
+            \resumeItem{\normalsize{It creates matrix of complete dataset with each row representing an array vector.}}
+            \resumeItem{\normalsize{The cosine similarity finds 5 most nearest movie vector and prints their name.}}
+          \resumeItemListEnd 
+
+          
+    \resumeProjectHeading
+           {\href{https://github.com/Amlan4/Elibrary}{\textbf{\large{\underline{E-library management System }}} \href{https://github.com/Amlan4/Elibrary}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{(C Sharp, HTML),
+IDE-Visual Studio}}}\\
+          \resumeItemListStart
+           \resumeItem{\normalsize{ Developed an E-Library Management System to manage and maintain book inventory, user registrations, and book lending/return processes.}}
+          
+            \resumeItem {\normalsize { It helps a librarian to keep a track of the books issued}}
+            \resumeItem{\normalsize{Designed and implemented a relational database schema using MySQL, optimizing queries for efficient data retrieval. }}
+            
+          \resumeItemListEnd 
+
+          \vspace{-13pt}
+   
+          \vspace{-13pt}
+          
+        % \resumeProjectHeading
+        %   {\href{https://github.com/FusionIIIT/Fusion/tree/main/FusionIIIT/applications/counselling_cell}{\textbf{\large{\underline{Counselling Cell - \textbf{Fusion IIIT}}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{HTML, CSS, Django, PostgreSQL}}}{2021-22}
+        %   \resumeItemListStart
+        %      \resumeItem{\normalsize{Develop the \textbf{front-end} of Counselling Cell module in Fusion IIIT.}}
+        %     \resumeItem{\normalsize{Module Consists of 4-5 different types of users with different functionalities.}}
+        %     \resumeItem{\normalsize{Added \textbf{10-12 new features} like organize the user interface of the Module's \textbf{Home Page}}}
+        %     \resumeItem{\normalsize{Handle the database and integrated the module with other existing modules.}}
+        %   \resumeItemListEnd
+        %   \vspace{-13pt}
+          
+        \resumeProjectHeading
+          
+
+          
+    \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+%
+
+
+%-----------EXPERIENCE-----------
+% \section{INTERNSHIP}
+%   \resumeSubHeadingListStart
+
+%     \resumeSubheading
+%       {Company Name \href{certificate Link}{\raisebox{-0.1\height}\faExternalLink }}{MM YYYY -- MM YYYY} 
+%       {\underline{Role Name}}{city, country}
+%       \resumeItemListStart
+%         \resumeItem{\normalsize{About the role \textbf{and responsibilities carried out.}}}
+  
+%       \resumeItemListEnd  
+%   \resumeSubHeadingListEnd
+% \vspace{-12pt}
+%-----------PROGRAMMING SKILLS-----------
+
+
+\section{TECHNICAL SKILLS}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\normalsize{Languages:}}{  \normalsize{C++, Python, JavaScript, SQL}} \\
+     \textbf{\normalsize{Technologies/Frameworks:}}{  \normalsize{HTML5, CSS3,  Bootstrap}} \\
+     \textbf{\normalsize{Developer Tools:}}{  \normalsize{VS Code, Visual Studio, IntelliJ, jupyter notebook }} \\
+    }}
+ \end{itemize}
+ \vspace{-15pt}
+
+
+ 
+  %-----------CERTIFICATIONS---------------
+
+  %
+\end{flushleft}
+ \section{EXTRACURRICULAR}
+    \resumeSubHeadingListStart
+        % \resumeSubheading{Organization Name \href{Certificate Proof link}{\raisebox{-0.1\height}\faExternalLink } }{05-2021 -- 12-2021}{\underline{Role}}{Location}
+        
+            \resumeItemListStart
+                \resumeItem{\normalsize{Taught basic HTML, CSS and javascript to my juniors and Java in offline mode. .        }}
+                \resumeItem{\normalsize{Participated in various Hackathons}}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+ \vspace{-11pt}
+ 
+ \end{document}
