@@ -206,23 +206,74 @@ Developed an advanced E-Library Management System to streamline the administrati
 \href{https://www.linkedin.com/in/amlan-pati-63729a25b/overlay/1635536394772/single-media-viewer/?profileId=ACoAAD_vqAsBW1swL3D9-OmnUZ5TQb48RXd5MaY}{Certificate Link}
 
 
-%-----------PROJECTS-----------------
-\vspace{-5pt}
-\section{Projects}
-\resumeSubHeadingListStart
+%-----------PROJECTS-----------
+\section{PROJECTS}
+   
+    \resumeSubHeadingListStart
+    
+    \resumeSubHeadingListStart
 
-\resumeSubItem{\href{https://github.com/Amlan4/movie-recommendation-system}{\textbf{Movie Insight Engine}} (Tech: Python, IDE: Jupyter Notebook)}{From a dataset of 5000 movies, the system recommends}\vspace{4pt}{ the 5 most similar movies for any entered movie name. It creates a matrix for the entire dataset, where each row represents a feature vector of a movie. Then by using cosine similarity, it identifies the 5 closest movie vectors to the entered movie and prints their names.}
-\vspace{4pt}
+          \resumeSubHeadingListStart
+ \resumeSubHeadingListStart
 
-\resumeSubItem{\href{https://github.com/Amlan4/Discord-Bot}{\textbf{Discord Bot}} (Tech: Python, IDE: Replit)}{Developed a bot by integrating it with Google Generative AI (Gemini), }\vspace{4pt}{which can generate real-time text responses and images based on user prompts.}
-\vspace{4pt}
+          \resumeSubHeadingListStart
 
-\resumeSubItem{\href{https://github.com/Amlan4/Elibrary}{\textbf{E-Library Management System}} (Tech: C#, HTML, Bootstrap)}{Developed an E-Library Management System that can\vspace{4pt}{ help a librarian to manage and maintain book inventory by keeping track of the user registrations and book lending/return processes.  }
-The system keeps track of user registrations and book lending/return processes.}
-\vspace{4pt}
+      \resumeProjectHeading
+      
+              \resumeProjectHeading
+      
+          {\href{https://githubreplit.com/A@amlan4/Discord-Botpati6/externalordChatgpt#main.py}{\textbf{\large{\underline{Discord Bot }}} \href{Project Link}{\raisebox{-0.1\height}\f }} $|$ \large{\underline{Python,Replit}}}\\
+          \resumeItemListStart
+            % \resumeItem{\normalsize{Developed a externalord bot that interacts with users, responds to mentions, and generates AI-based content using Google’s Generative AI (Gemini) APIWe fetch(relevant) data from GitHub for that we required GitHub API and performing various operation on it.}}
+             \resumeItem{\normalsize{Developed a bot by integrating it with Google Generative AI (Gemini) to generate real-time responses and images based on user prompts.}}
+             \resumeItem{\normalsize{Integrated image generation functionality, enabling users to generate images through the bot by interacting with an external service.}}
+             \resumeItem {\normalsize{Configured secure access to Apis using environment variables for sensitive data like API keys and tokens.}}
+      \resumeItemListEnd 
 
-\resumeSubHeadingListEnd
-\vspace{-10pt}
+\resumeSubHeadingListEnd}}
+          \resumeItemListEnd 
+          
+
+          \resumeProjectHeading
+          {\href{https://github.com/Amlan4/movie-recommendation-system}{\textbf{\large{\underline{Movie Insight Engine}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Python, IDE-jupyter notebook}}}\\
+          \resumeItemListStart
+            % \resumeItem{\normalsize{We fetch(relevant) data from GitHub for that we required GitHub API and performing various operation on it.}}
+            \resumeItem {\normalsize{From a dataset of 5000 movies, it recommends 5 most similar movies for any entered movie name. }}
+            \resumeItem{\normalsize{It creates matrix of complete dataset with each row representing an array vector.Then the cosine similarity finds 5 most nearest movie vector and prints their name.}}
+          \resumeItemListEnd 
+
+          
+    \resumeProjectHeading
+           {\href{https://github.com/Amlan4/Elibrary}{\textbf{\large{\underline{E-library management System }}} \href{https://github.com/Amlan4/Elibrary}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{(C Sharp, HTML),
+IDE-Visual Studio}}}\\
+          \resumeItemListStart
+           \resumeItem{\normalsize{ Developed an E-Library Management System to manage and maintain book inventory, user registrations, and book lending/return processes.}}
+          
+            \resumeItem {\normalsize { It helps a librarian to keep a track of the books issued}}
+           % \resumeItem{\normalsize{Designed and implemented a relational database schema using MySQL, optimizing queries for efficient data retrieval. }}
+            
+          \resumeItemListEnd 
+
+        % \resumeProjectHeading
+        %   {\href{https://github.com/FusionIIIT/Fusion/tree/main/FusionIIIT/applications/counselling_cell}{\textbf{\large{\underline{Counselling Cell - \textbf{Fusion IIIT}}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{HTML, CSS, Django, PostgreSQL}}}{2021-22}
+        %   \resumeItemListStart
+        %      \resumeItem{\normalsize{Develop the \textbf{front-end} of Counselling Cell module in Fusion IIIT.}}
+        %     \resumeItem{\normalsize{Module Consists of 4-5 different types of users with different functionalities.}}
+        %     \resumeItem{\normalsize{Added \textbf{10-12 new features} like organize the user interface of the Module's \textbf{Home Page}}}
+        %     \resumeItem{\normalsize{Handle the database and integrated the module with other existing modules.}}
+        %   \resumeItemListEnd
+        %   \vspace{-13pt}
+          
+        \resumeProjectHeading
+          
+
+          
+    \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+%
+
+
 %-----------EXPERIENCE-----------
 % \section{INTERNSHIP}
 %   \resumeSubHeadingListStart
@@ -254,17 +305,17 @@ The system keeps track of user registrations and book lending/return processes.}
   %-----------CERTIFICATIONS---------------
 
   %
- 
+  \begin{comment}
 \end{flushleft}
  \section{EXTRACURRICULAR}
     \resumeSubHeadingListStart
         % \resumeSubheading{Organization Name \href{Certificate Proof link}{\raisebox{-0.1\height}\faExternalLink } }{05-2021 -- 12-2021}{\underline{Role}}{Location}
         
             \resumeItemListStart
-                \resumeItem{\normalsize{Taught basic HTML, CSS and JjavaSscript and Machine Learning to my juniors in offline mode.}}
-                \resumeItem{\normalsize{Participated in various Hackathons, Chess cCompetietions and painting competietions. }}
+                \resumeItem{\normalsize{Taught basic HTML, CSS and javascript to my juniors and Java in offline mode. .        }}
+                \resumeItem{\normalsize{Participated in various Hackathons}}
             \resumeItemListEnd
     \resumeSubHeadingListEnd
  \vspace{-11pt}
-
+ \end{comment}
  \end{document}
